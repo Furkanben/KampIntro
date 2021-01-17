@@ -21,12 +21,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TernaryOdev", "TernaryOdev\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhileOdev", "WhileOdev\WhileOdev.csproj", "{E0B8110F-05C5-4BD8-87D9-A01079C5CD54}"
 EndProject
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdevMethods", "OdevMethods\OdevMethods.csproj", "{D34DE4BF-CB14-4F72-AECC-B71B1FE8F889}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdevRefKeyword", "OdevRefKeyword\OdevRefKeyword.csproj", "{CED51C0B-C27C-4E0B-84A5-EBEA1CA82883}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdevOutKeyword", "OdevOutKeyword\OdevOutKeyword.csproj", "{572F7337-493C-44AA-9D4F-01C45EC9A3B9}"
 EndProject
+=======
+>>>>>>> f58031b1469cae035685ac7da982cc6a18c6367f
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +72,7 @@ Global
 		{E0B8110F-05C5-4BD8-87D9-A01079C5CD54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0B8110F-05C5-4BD8-87D9-A01079C5CD54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0B8110F-05C5-4BD8-87D9-A01079C5CD54}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
 		{D34DE4BF-CB14-4F72-AECC-B71B1FE8F889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D34DE4BF-CB14-4F72-AECC-B71B1FE8F889}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D34DE4BF-CB14-4F72-AECC-B71B1FE8F889}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -81,6 +85,8 @@ Global
 		{572F7337-493C-44AA-9D4F-01C45EC9A3B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{572F7337-493C-44AA-9D4F-01C45EC9A3B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{572F7337-493C-44AA-9D4F-01C45EC9A3B9}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+>>>>>>> f58031b1469cae035685ac7da982cc6a18c6367f
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
