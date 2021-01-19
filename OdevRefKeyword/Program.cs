@@ -32,7 +32,7 @@ namespace OdevRefKeyword //OdevMethods ÜZERİNDEN DEVAM!
             return result;
         }
         //Eğer sabit rakam ile işlem yapılıyorsa değer tip ile tanımlanan sabit değer kullanılır ancak kullanım durumuna göre sabit rakam yerine değişen (örneğin müşteriye özgü faiz oranı) rakam ile işlem yapılıyorsa "ref" keyword'ü ile referans tip kullanılır.
-        static int Add3(ref int number1, int number2)//"ref" eklendiği için number1 referans tipe dönüştü ve sonradan tanımlanan "30" değerini aldı. "ref" olmasaydı number1 değer tip olup yukarıda tanımlanan 20 değerini alacaktı.
+        static int Add3(ref int number1, int number2)//"ref" ile 20 olan number1'ı buraya alıp metodun içinde 30'a dönüştürdük.
         {
             number1 = 30;
             return number1 + number2;

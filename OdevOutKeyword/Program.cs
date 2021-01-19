@@ -32,7 +32,7 @@ namespace OdevOutKeyword //OdevRefKeyword ÜZERİNDEN DEVAM!
             return result;
         }
         //Eğer sabit rakam ile işlem yapılıyorsa değer tip ile tanımlanan sabit değer kullanılır ancak kullanım durumuna göre sabit rakam yerine değişen (örneğin müşteriye özgü faiz oranı) rakam ile işlem yapılıyorsa "out" keyword'ü ile referans tip kullanılır.("ref" gibi)
-        static int Add3(out int number1, int number2)//"ref" eklendiği için number1 referans tipe dönüştü ve sonradan tanımlanan "30" değerini aldı. "out" olmasaydı number1 değer tip olup yukarıda değer tanımlanmadığı için boşta kalacaktı (hata).
+        static int Add3(out int number1, int number2)//"out" ile number1 takma adlı değer atanmayan değişken buraya alındı, burada değer tanımlandı.
         {
             number1 = 30;
             return number1 + number2;
