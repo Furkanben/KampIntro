@@ -28,7 +28,7 @@ namespace OdevClassMethodDemo
             customer3.Balance = 500000;
             customer3.CreditRisk = "Very low";
 
-            Customer[] customers = new Customer[] { customer1, customer2, customer3};
+            Customer[] customers = new Customer[] { customer1, customer2, customer3, };
 
             foreach (Customer customer in customers)
             {
@@ -36,6 +36,7 @@ namespace OdevClassMethodDemo
                 Console.WriteLine(customerName + ": " + customer.Name);
                 Console.WriteLine(customerBalance + ": " + customer.Balance);
                 Console.WriteLine(customerCreditRisk + ": " + customer.CreditRisk);
+                Console.WriteLine("\n");
             }
 
             Console.WriteLine("***End of the report***");
