@@ -75,7 +75,7 @@ namespace ReferenceTypes
     class Customer:Person//InheritenceClass "Customer" contains properties of class "Person" as well.
     {
         public string CreditCardNumber { get; set; }
-    }
+        }
 
     class Employee:Person//Inheritence: Class "Employee" contains properties of class "Person" as well.
     {

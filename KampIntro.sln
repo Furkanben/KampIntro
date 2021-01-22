@@ -41,7 +41,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections", "Collections\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsIntro", "GenericsIntro\GenericsIntro.csproj", "{0D28DDF0-9776-4B17-9E1F-E4671CC46931}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenceTypes", "ReferenceTypes\ReferenceTypes.csproj", "{01F36B6E-4666-4764-BA64-FE96B7635775}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OdevReferenceTypes", "ReferenceTypes\OdevReferenceTypes.csproj", "{01F36B6E-4666-4764-BA64-FE96B7635775}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
