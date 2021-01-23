@@ -4,9 +4,8 @@ using System.Text;
 
 namespace OOP3
 {
-    interface ICreditManager
+    interface ILoggerService
     {
-        void Calculate();
-        void DoSomething();
+        void Log();
     }
 }

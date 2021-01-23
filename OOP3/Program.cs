@@ -11,13 +11,17 @@ namespace OOP3
             ICreditManager vehicleCreditManager = new VehicleCreditManager();            
             ICreditManager dwellingCreditManager = new DwellingCreditManager();
 
+            ILoggerService databaseLooggerService = new DatabaseLoggerService();
+            ILoggerService fileLoggerService = new FileLoggerService();
+
             ApplicationManager applicationManager = new ApplicationManager();
-            //applicationManager.Apply(dwellingCreditManager);//(a type of ICreditManager)
+            applicationManager.Apply(vehicleCreditManager, new FileLoggerService());//(a type of ICreditManager)
 
 
 
             List<ICreditManager> credits = new List<ICreditManager>() { consumerCreditManager, vehicleCreditManager };
-            applicationManager.ProvideCreditInformation(credits);
+
+            //applicationManager.ProvideCreditInformation(credits);
         }
     }
 }
