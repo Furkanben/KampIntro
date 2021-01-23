@@ -45,9 +45,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OdevReferenceTypes", "Refer
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constructers", "Constructers\Constructers.csproj", "{2DA0B961-E66F-4181-9FE4-AAC6A54A6FA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP2", "OOP2\OOP2.csproj", "{CAE49326-3957-4841-9028-0F3239817EB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP2", "OOP2\OOP2.csproj", "{CAE49326-3957-4841-9028-0F3239817EB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP3", "OOP3\OOP3.csproj", "{6F3C787D-C844-48A9-B7AF-5A89403A1E9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP3", "OOP3\OOP3.csproj", "{6F3C787D-C844-48A9-B7AF-5A89403A1E9D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -139,6 +139,14 @@ Global
 		{2DA0B961-E66F-4181-9FE4-AAC6A54A6FA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DA0B961-E66F-4181-9FE4-AAC6A54A6FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DA0B961-E66F-4181-9FE4-AAC6A54A6FA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAE49326-3957-4841-9028-0F3239817EB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAE49326-3957-4841-9028-0F3239817EB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAE49326-3957-4841-9028-0F3239817EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAE49326-3957-4841-9028-0F3239817EB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F3C787D-C844-48A9-B7AF-5A89403A1E9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F3C787D-C844-48A9-B7AF-5A89403A1E9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F3C787D-C844-48A9-B7AF-5A89403A1E9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F3C787D-C844-48A9-B7AF-5A89403A1E9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
