@@ -6,11 +6,12 @@ namespace OOP3
 {
     class ApplicationManager
     {
-        public void Apply(ICreditManager creditManager)//Credit type independent
+        public void Apply(ICreditManager creditManager, ILoggerService loggerService)//Credit type independent
         {
             //Applicant info evaluation
             //
             creditManager.Calculate();
+            loggerService.Log();
         }
 
         public void ProvideCreditInformation(List<ICreditManager> credits)
