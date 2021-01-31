@@ -55,7 +55,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes", "Classes\Classes.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecapDemo1", "RecapDemo1\RecapDemo1.csproj", "{29680F53-37B4-41A4-B9F5-09B2839A8CFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{4F9983EA-9E71-4991-9ACB-9D91F7D2C998}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "Interfaces\Interfaces.csproj", "{4F9983EA-9E71-4991-9ACB-9D91F7D2C998}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqProject", "LinqProject\LinqProject.csproj", "{D7CCB37F-1AB9-4E51-A2F8-929DF2717A76}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +173,10 @@ Global
 		{4F9983EA-9E71-4991-9ACB-9D91F7D2C998}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F9983EA-9E71-4991-9ACB-9D91F7D2C998}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F9983EA-9E71-4991-9ACB-9D91F7D2C998}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7CCB37F-1AB9-4E51-A2F8-929DF2717A76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7CCB37F-1AB9-4E51-A2F8-929DF2717A76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7CCB37F-1AB9-4E51-A2F8-929DF2717A76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7CCB37F-1AB9-4E51-A2F8-929DF2717A76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
